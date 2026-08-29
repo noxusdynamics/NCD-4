@@ -1,0 +1,33 @@
+# Dataset folders (DO NOT push raw dataset to GitHub)
+Frames/
+frames/
+
+# Image files in general
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# Exception: allow result plots in results directory
+!results/*.png
+
+# Python runtime & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Models / Large binary files
+*.keras
+*.h5
+*.hdf5
+*.pkl
+
+# IDE / OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
